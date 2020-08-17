@@ -112,7 +112,7 @@ export default function Form() {
 
 
 
-        <form onSubmit={formSubmit}>
+        <form onSubmit={formSubmit} name="orderForm">
                 {serverError ? <p className="error">{serverError}</p> : null}
 
             <label htmlFor="nameInput">
